@@ -1,17 +1,17 @@
-import './Consultation.css'
 import styled from 'styled-components'
 
 
 const Consultation = () => {
 
-    const Column = styled.div`
-    background-color: var(--color-red)`
-
+    const Section = styled.div`
+    height: 200px;
+    background-color: var(--color-light);
+    `
 
     return (
-        <Column id='consultation' className='consultation'>
-            <h1>Consulta</h1>
-        </Column>
+        <Section id='consultation'>
+            <h2>Consulta</h2>
+        </Section>
     )
 }
 

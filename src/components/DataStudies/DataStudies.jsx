@@ -1,13 +1,17 @@
-import './DataStudies.css'
+import styled from 'styled-components'
 
 
 const DataStudies = () => {
 
+    const Section = styled.div`
+    height: 200px;
+    background-color: var(--color-light);
+    `
 
     return (
-        <div id='dataStudies' className='dataStudies'>
+        <Section id='dataStudies'>
             <h1>Mis estudios como analista de datos</h1>
-        </div>
+        </Section>
     )
 }
 

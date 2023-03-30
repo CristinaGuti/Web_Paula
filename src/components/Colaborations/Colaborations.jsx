@@ -1,13 +1,17 @@
-import './Colaborations.css'
+import styled from 'styled-components'
 
 
 const Colaborations = () => {
 
+    const Section = styled.div`
+    height: 200px;
+    background-color: var(--color-light);
+    `
 
     return (
-        <div className='colaborations'>
-            <h1>Colaboraciones</h1>
-        </div>
+        <Section>
+            <h2>Colaboraciones</h2>
+        </Section>
     )
 }
 

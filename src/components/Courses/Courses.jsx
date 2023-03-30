@@ -1,13 +1,17 @@
-import './Courses.css'
+import { SectionEven } from '../ComponentStyles/ComponentStyles'
 
 
 const Courses = () => {
 
+    // const Section = styled.div`
+    // height: 200px;
+    // background-color: var(--color-light);
+    // `
 
     return (
-        <div id='courses' className='courses'>
-            <h1>Formación para empresas</h1>
-        </div>
+        <SectionEven id='courses'>
+            <h2>Formación para empresas</h2>
+        </SectionEven>
     )
 }
 

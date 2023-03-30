@@ -1,13 +1,17 @@
-import './Blog.css'
+import styled from 'styled-components'
 
 
 const Blog = () => {
 
+    const Section = styled.div`
+    height: 200px;
+    background-color: var(--color-light);
+    `
 
     return (
-        <div id='blog' className='blog'>
-            <h1>Blog</h1>
-        </div>
+        <Section id='blog'>
+            <h2>Blog</h2>
+        </Section>
     )
 }
 
