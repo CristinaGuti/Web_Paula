@@ -1,8 +1,6 @@
-// import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
-import Instagram from './components/Instagram/Instagram'
 
-// import AppRoutes from './routes/AppRoutes'
+import AppRoutes from './routes/AppRoutes'
 
 
 const App = () => {
@@ -12,8 +10,7 @@ const App = () => {
     <div className='App'>
 
       <div className='AppRoutes'>
-        {/* <AppRoutes /> */}
-        <Instagram />
+        <AppRoutes />
       </div>
 
     </div>

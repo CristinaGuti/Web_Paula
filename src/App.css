@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.instagram {
-  width: 100%;
-  border: 0;
-  overflow: hidden;
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  scroll-margin-top: 90px;
 }

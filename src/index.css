@@ -10,8 +10,11 @@
 
 :root {
   --color-black: #000000;
+  --color-white: #FFFFFF;
   --color-blue: #7FDAD3;
   --color-red: #FA1B52;
+  --color-podcast: #6C58B2;
+  --color-light: #ebf9f7;
 }
 
 

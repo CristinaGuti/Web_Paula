@@ -1,0 +1,10 @@
+.podcast {
+    height: 500px;
+    background-color: var(--color-red);
+}
+
+.podcastBox {
+    width: 1000px;
+    height: 279px;
+    border-radius: 12px;
+}
