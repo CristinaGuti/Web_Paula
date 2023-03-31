@@ -3,18 +3,6 @@ import styled from 'styled-components'
 
 const Hero = () => {
 
-    // const ReservationButton = styled.button`
-    // background-color: var(--color-red);
-    // border-radius: 5px;
-    // color: black;
-    // padding: 10px 30px;
-    // margin-top: 30px;
-    // &:hover,
-    // &:focus {
-    // background-color: var(--color-podcast);
-    // }
-    // `
-
     const Hero = styled.div`
     height: 500px;
     padding-top: 100px;
@@ -26,6 +14,7 @@ const Hero = () => {
     letter-spacing: 3px;
     margin: 20px 0 60px 0;
     font-family: "Gobold-Regular";
+    font-size: 4rem;
     `
     const Link = styled.a`
     text-decoration: none;
@@ -35,7 +24,7 @@ const Hero = () => {
     padding: 15px 35px;
     &:hover,
     &:focus {
-    background-color: var(--color-podcast);
+    background-color: var(--color-podcast-light);
     }
     `
 

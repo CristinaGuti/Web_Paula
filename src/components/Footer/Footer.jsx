@@ -10,7 +10,7 @@ const Footer = () => {
     `
 
     return (
-        <Footer>
+        <Footer id='contact'>
             <h2>Footer</h2>
         </Footer>
     )

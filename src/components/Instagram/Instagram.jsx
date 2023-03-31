@@ -15,7 +15,7 @@ const Instagram = () => {
     `
 
     return (
-        <Section id='instagram'>
+        <Section id='networks' >
             <h2>Instagram</h2>
             < script src="https://cdn.lightwidget.com/widgets/lightwidget.js" ></script >
 

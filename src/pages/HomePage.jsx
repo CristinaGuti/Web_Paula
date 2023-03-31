@@ -17,12 +17,12 @@ const HomePage = () => {
             <Navbar />
             <Hero />
             <Consultation />
-            <Instagram />
             <Colaborations />
             <DataStudies />
             <Podcast />
             <Courses />
             <Blog />
+            <Instagram />
             <Footer />
         </>
     )
