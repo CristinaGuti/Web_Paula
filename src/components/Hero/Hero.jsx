@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-
+import { H1 } from '../Text/Text'
 
 const Hero = () => {
 
@@ -9,13 +9,6 @@ const Hero = () => {
     background-color: var(--color-blue);
     `
 
-    const Title = styled.h1`
-    font-weight: 600;
-    letter-spacing: 3px;
-    margin: 20px 0 60px 0;
-    font-family: "Gobold-Regular";
-    font-size: 4rem;
-    `
     const Link = styled.a`
     text-decoration: none;
       background-color: var(--color-red);
@@ -31,7 +24,7 @@ const Hero = () => {
 
     return (
         <Hero>
-            <Title>TU CONSULTA DE SEXOLOGÍA ONLINE</Title>
+            <H1>Tu consulta de sexología online</H1>
 
             <Link href='https://app.acuityscheduling.com/schedule.php?owner=17667345' target="_blank">RESERVA CITA</Link>
 

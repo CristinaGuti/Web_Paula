@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { H2 } from '../Text/Text'
+
 
 
 const Blog = () => {
@@ -10,7 +12,7 @@ const Blog = () => {
 
     return (
         <Section id='blog'>
-            <h2>Blog</h2>
+            <H2>Blog</H2>
         </Section>
     )
 }

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { H2 } from '../Text/Text'
 
 
 const DataStudies = () => {
@@ -10,7 +11,7 @@ const DataStudies = () => {
 
     return (
         <Section id='dataStudies'>
-            <h1>Mis estudios como analista de datos</h1>
+            <H2>Mis estudios como analista de datos</H2>
         </Section>
     )
 }

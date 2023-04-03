@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { H2 } from '../Text/Text'
 
 
 const Podcast = () => {
@@ -17,7 +18,7 @@ const Podcast = () => {
 
     return (
         <Podcast id='podcast'>
-            <h2>Podcast</h2>
+            <H2>Podcast</H2>
 
             < SpotifyWidget
                 src="https://open.spotify.com/embed/show/02O5h9s0pdZ1z7ZM9R9zEz?theme=0"

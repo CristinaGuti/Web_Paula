@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { H2 } from '../Text/Text'
 
 
 const Instagram = () => {
@@ -16,7 +17,7 @@ const Instagram = () => {
 
     return (
         <Section id='networks' >
-            <h2>Instagram</h2>
+            <H2>Instagram</H2>
             < script src="https://cdn.lightwidget.com/widgets/lightwidget.js" ></script >
 
             <InstagramWidget

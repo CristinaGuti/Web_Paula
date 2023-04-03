@@ -16,6 +16,7 @@
   --color-podcast-dark: #412881;
   --color-podcast-light: #6C58B2;
   --color-light: #ebf9f7;
+  --filter-to-red: brightness(0) saturate(100%) invert(20%) sepia(91%) saturate(4115%) hue-rotate(335deg) brightness(100%) contrast(96%);
 }
 
 

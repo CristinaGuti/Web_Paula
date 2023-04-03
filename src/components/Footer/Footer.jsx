@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { H2 } from '../Text/Text'
 
 
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
 
     return (
         <Footer id='contact'>
-            <h2>Footer</h2>
+            <H2>Footer</H2>
         </Footer>
     )
 }

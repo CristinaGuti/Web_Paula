@@ -1,4 +1,5 @@
 import { SectionEven } from '../ComponentStyles/ComponentStyles'
+import { H2 } from '../Text/Text'
 
 
 const Courses = () => {
@@ -10,7 +11,7 @@ const Courses = () => {
 
     return (
         <SectionEven id='courses'>
-            <h2>Formación para empresas</h2>
+            <H2>Formación para empresas</H2>
         </SectionEven>
     )
 }

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { H2 } from '../Text/Text'
 import rtve from '../../assets/colaborations/logo-rtve.png'
 import pais from '../../assets/colaborations/logo-el-pais.png'
 import confidencial from '../../assets/colaborations/logo-el-cofidencial.jpg'
@@ -16,22 +17,23 @@ import felgtbi from '../../assets/colaborations/logo-felgtbi.png'
 const Colaborations = () => {
 
     const Container = styled.div`
-    height: 500px;
+    padding: 30px;
    `
 
     const Section = styled.div`
-    height: 500px;
-    background-color: var(--color-light);
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     `
 
     return (
         <Container id='colaborations'>
 
-            <Section>
+            <H2>Colaboraciones</H2>
 
-                <h2>Colaboraciones</h2>
+            <Section>
 
                 <a href="https://www.instagram.com/reel/CqQaMltIg2C/?igshid=MDJmNzVkMjY%3D">
                     <img src={freeda} alt="freeda" />
