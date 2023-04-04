@@ -3,33 +3,35 @@ import video from '../../assets/video-consultation.mp4'
 import IconDiv from '../IconDiv/IconDiv'
 import { H2 } from '../Text/Text'
 
+
+const Container = styled.div`
+height: 500px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+`
+
+const Column = styled.div`
+display: flex;
+flex-direction: column;
+width: 40%;
+`
+
+const Section = styled.div`
+height: 500px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+`
+
+const Video = styled.video`
+height: 400px;
+margin: 30px
+`
+
+
 const Consultation = () => {
 
-
-    const Container = styled.div`
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-   `
-
-    const Column = styled.div`
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-   `
-
-    const Section = styled.div`
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    `
-
-    const Video = styled.video`
-    height: 400px;
-    margin: 30px
-    `
 
     return (
 

@@ -1,15 +1,18 @@
 import styled from 'styled-components'
 
-const IconDiv = ({ title, image, imageRed }) => {
 
-    const Icon = styled.img`
-    width: auto;
-    height: 100px;
-    margin: 30px;
-    `
+const Icon = styled.img`
+width: auto;
+height: 100px;
+margin: 30px;
+`
+
+
+const IconDiv = ({ title, image, imageRed }) => {
 
     const imageSrcBlue = require(`../../assets/icons/${image}.png`)
     const imageSrcRed = require(`../../assets/icons/${imageRed}.png`)
+
 
     return (
         <div>

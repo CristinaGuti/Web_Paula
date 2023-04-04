@@ -11,7 +11,7 @@ export const H1 = styled.h1`
 
 export const H2 = styled.h2`
     font-family: "Gobold-Regular";
-    margin: 20px;
+    padding: 20px;
     font-size: 3rem;
     text-align: center;
     `

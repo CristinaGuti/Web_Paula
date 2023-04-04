@@ -1,22 +1,20 @@
 import styled from 'styled-components'
 import { H2 } from '../Text/Text'
+import { Container } from '../ComponentStyles/ComponentStyles'
+
+
+const InstagramWidget = styled.iframe`
+width: 100%;
+border: 0;
+overflow: hidden;
+`
 
 
 const Instagram = () => {
 
-    const Section = styled.div`
-    height: 400px;
-    background-color: var(--color-light);
-    `
-
-    const InstagramWidget = styled.iframe`
-    width: 100%;
-    border: 0;
-    overflow: hidden;
-    `
 
     return (
-        <Section id='networks' >
+        <Container id='networks' >
             <H2>Instagram</H2>
             < script src="https://cdn.lightwidget.com/widgets/lightwidget.js" ></script >
 
@@ -26,7 +24,7 @@ const Instagram = () => {
                 className='lightwidget-widget'
                 height="600"
             ></InstagramWidget>
-        </Section>
+        </Container>
     )
 }
 
