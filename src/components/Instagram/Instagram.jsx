@@ -4,14 +4,14 @@ import { Container } from '../ComponentStyles/ComponentStyles'
 
 
 const InstagramWidget = styled.iframe`
-width: 100%;
-border: 0;
-overflow: hidden;
+width: 90%;
+height: 1200px;
+border:0;
+overflow:hidden;
 `
 
 
 const Instagram = () => {
-
 
     return (
         <Container id='networks' >
@@ -19,10 +19,10 @@ const Instagram = () => {
             < script src="https://cdn.lightwidget.com/widgets/lightwidget.js" ></script >
 
             <InstagramWidget
-                src="//lightwidget.com/widgets/80993f385be250dcbdf32b1db9dc0fc7.html"
+                src="//lightwidget.com/widgets/078d0f49d6375305a79f3e002d9e9d66.html"
                 title="instagram"
+                allowtransparency="true"
                 className='lightwidget-widget'
-                height="600"
             ></InstagramWidget>
         </Container>
     )
