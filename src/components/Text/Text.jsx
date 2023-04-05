@@ -16,4 +16,17 @@ export const H2 = styled.h2`
     text-align: center;
     `
 
+export const H4 = styled.h4`
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    `
+
+export const Paragraph = styled.p`
+    font-size: 1.3rem;
+    padding: 10px;
+    `
+
 

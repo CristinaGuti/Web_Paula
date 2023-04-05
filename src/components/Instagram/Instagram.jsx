@@ -4,7 +4,7 @@ import { Container } from '../ComponentStyles/ComponentStyles'
 
 
 const InstagramWidget = styled.iframe`
-width: 90%;
+width: 70%;
 height: 1200px;
 border:0;
 overflow:hidden;

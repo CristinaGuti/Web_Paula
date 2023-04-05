@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { H2 } from '../Text/Text'
+import { H2, Paragraph } from '../Text/Text'
 import { Container } from '../ComponentStyles/ComponentStyles'
 import LogoLink from '../LogoLink/LogoLink'
 
@@ -35,22 +35,22 @@ const DataStudies = () => {
             <H2>Mis estudios como analista de datos</H2>
 
             <Section>
-                <p>¡Hola! Me llamo Paula Álvarez y me apasiona el mundo de la sexología y la educación.
+                <Paragraph>¡Hola! Me llamo Paula Álvarez y me apasiona el mundo de la sexología y la educación.
                     He fundado mi propia consulta en la que ofrezco asesoramiento y disfruto de la
                     divulgación sobre educación sexual y feminismo en el podcast "Nos tienen contentas"
                     junto a mi compañera Rocío Romero.
-                </p>
+                </Paragraph>
 
-                <p>Además, tras completar el bootcamp de Ironhack, he decidido explorar mi otra pasión:
+                <Paragraph>Además, tras completar el bootcamp de Ironhack, he decidido explorar mi otra pasión:
                     el análisis de datos. Actualmente me dedico al análisis y visualización de datos
                     utilizando herramientas como Python, SQL, Tableau y Power BI. Me encanta explorar la
                     información y descubrir patrones y tendencias que puedan ayudar a las empresas y
                     organizaciones a tomar decisiones más informadas y estratégicas.
-                </p>
+                </Paragraph>
 
-                <p>Estoy siempre en busca de nuevos retos y en constante aprendizaje. Si necesitas ayuda
+                <Paragraph>Estoy siempre en busca de nuevos retos y en constante aprendizaje. Si necesitas ayuda
                     en el análisis de datos, no dudes en contactarme. ¡Estoy aquí para ayudarte!
-                </p>
+                </Paragraph>
 
 
                 <LinkColumn>

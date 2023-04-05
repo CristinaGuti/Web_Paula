@@ -37,5 +37,25 @@ export const LogoImg = styled.img`
 `
 
 export const Container = styled.div`
-padding: 30px;
+    padding: 30px;
+`
+
+export const Section = styled.div`
+    width: 70%;
+    margin: auto;
+`
+
+export const LinkButton = styled.a`
+    text-decoration: none;
+    background-color: var(--color-red);
+    border-radius: 5px;
+    color: black;
+    padding: 15px 35px;
+    display: block;
+    width: 200px;
+    margin:  20px auto;
+    &:hover,
+    &:focus {
+        background-color: var(--color-podcast-light);
+    }
 `

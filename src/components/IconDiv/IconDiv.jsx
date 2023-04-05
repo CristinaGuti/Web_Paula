@@ -1,10 +1,11 @@
 import styled from 'styled-components'
+import { H4 } from '../Text/Text'
 
 
 const Icon = styled.img`
 width: auto;
-height: 100px;
-margin: 30px;
+height: 150px;
+margin: 100px 30px 30px 30px;
 `
 
 
@@ -20,7 +21,7 @@ const IconDiv = ({ title, image, imageRed }) => {
                 onMouseEnter={e => (e.currentTarget.src = imageSrcRed)}
                 onMouseLeave={e => (e.currentTarget.src = imageSrcBlue)}
             />
-            <h4>{title}</h4>
+            <H4>{title}</H4>
         </div >
     )
 }

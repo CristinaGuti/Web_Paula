@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import video from '../../assets/video-consultation.mp4'
 import IconDiv from '../IconDiv/IconDiv'
-import { H2 } from '../Text/Text'
+import { H2, Paragraph } from '../Text/Text'
 import { Container } from '../ComponentStyles/ComponentStyles'
 
 
@@ -9,6 +9,7 @@ const Column = styled.div`
 display: flex;
 flex-direction: column;
 width: 40%;
+padding: 20px
 `
 
 const VideoColumn = styled.div`
@@ -26,8 +27,8 @@ justify-content: space-evenly;
 `
 
 const Video = styled.video`
-width: 225px;
-height: 400px;
+width: 50%;
+height: auto;
 `
 
 const Section = styled.div`
@@ -46,15 +47,14 @@ const Consultation = () => {
 
         <Container id='consultation'>
 
+            <H2>Consulta</H2>
             <Section>
                 <Column>
-                    <H2>Consulta</H2>
-                    <p>Consulta de sexología a tu medida.</p>
-                    <p>Especializada en diversidad y con perspectiva de género.</p>
+                    <Paragraph>Consulta de sexología a tu medida. <br /> Especializada en diversidad y con perspectiva de género.</Paragraph>
 
                     <IconColum >
-                        <IconDiv title={'VIDEOCONSULTA'} image={'icon-laptop-blue'} imageRed={'icon-laptop-red'} />
-                        <IconDiv title={'BONO 4 SESIONES'} image={'icon-bag-blue'} imageRed={'icon-bag-red'} />
+                        <IconDiv title={'Videoconsulta'} image={'icon-laptop-blue'} imageRed={'icon-laptop-red'} />
+                        <IconDiv title={'Bono 4 sesiones'} image={'icon-bag-blue'} imageRed={'icon-bag-red'} />
                     </IconColum>
                 </Column>
 

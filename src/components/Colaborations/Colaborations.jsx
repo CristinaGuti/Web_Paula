@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { H2 } from '../Text/Text'
+import { H2, Paragraph } from '../Text/Text'
 import { Container } from '../ComponentStyles/ComponentStyles'
 import LogoLink from '../LogoLink/LogoLink'
 
@@ -21,7 +21,6 @@ const Colaborations = () => {
 
             <H2>Colaboraciones</H2>
 
-            <p>Si os gustaría hacer una colaboración, contactadme a este email: workpaulaalvarez@gmail.com</p>
 
             <Section>
 
@@ -63,6 +62,8 @@ const Colaborations = () => {
                     srcImg='logo-sputnik.jpg' altImg='sputnik' />
 
             </Section>
+
+            <Paragraph>Si quieres hacer una colaboración, contáctame a este email: <strong>workpaulaalvarez@gmail.com</strong></Paragraph>
 
         </Container>
     )
