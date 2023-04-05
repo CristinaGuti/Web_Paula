@@ -6,6 +6,9 @@ const Icon = styled.img`
 width: auto;
 height: 150px;
 margin: 100px 30px 30px 30px;
+&:hover{
+    transform: scale(1.05);
+}
 `
 
 

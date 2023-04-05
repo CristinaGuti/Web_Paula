@@ -30,7 +30,7 @@ const Podcast = () => {
                 <PodcastWidget
                     src="https://open.spotify.com/embed/show/02O5h9s0pdZ1z7ZM9R9zEz?theme=0"
                     title="podcast"
-                    allowfullscreen=""
+                    allowFullScreen
                     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                     loading="lazy"
                 ></PodcastWidget>
@@ -40,7 +40,7 @@ const Podcast = () => {
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen
+                    allowFullScreen
                 ></PodcastWidget>
             </Section>
 

@@ -34,6 +34,10 @@ export const NavList = styled.ul`
 export const LogoImg = styled.img`
     width: 180px;
     margin: 12px 20px;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+    transform: translateY(-5%) scale(1.05) rotateX(10deg) rotateY(-5deg);
+    }
 `
 
 export const Container = styled.div`
@@ -48,7 +52,8 @@ export const Section = styled.div`
 export const LinkButton = styled.a`
     text-decoration: none;
     background-color: var(--color-red);
-    border-radius: 5px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
     color: black;
     padding: 15px 35px;
     display: block;
@@ -57,5 +62,6 @@ export const LinkButton = styled.a`
     &:hover,
     &:focus {
         background-color: var(--color-podcast-light);
+        transform: scale(1.05);
     }
 `

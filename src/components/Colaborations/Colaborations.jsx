@@ -47,7 +47,7 @@ const Colaborations = () => {
                     srcImg='logo-felgtbi.png' altImg='federacion estatal lgtbi+' />
 
                 <LogoLink link='https://www.instagram.com/p/CGBDYSZjsFT/?hl=es'
-                    srcImg='logo-santamandanga-1.png' altImg='santa mandanga' />
+                    srcImg='logo-santamandanga-2.png' altImg='santa mandanga' />
 
                 <LogoLink link='https://elpais.com/elpais/2020/04/27/mordiscos_y_tacones/1587997514_831936.html'
                     srcImg='logo-el-pais.png' altImg='el pais' />
@@ -68,6 +68,5 @@ const Colaborations = () => {
         </Container>
     )
 }
-
 
 export default Colaborations
