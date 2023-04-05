@@ -27,7 +27,7 @@ export const NavLink = styled.a`
 
 export const NavList = styled.ul`
     display: flex;
-    list - style: none;
+    list-style: none;
     margin: 0 20px;
 `
 
