@@ -32,7 +32,7 @@ export const NavList = styled.ul`
 `
 
 export const LogoImg = styled.img`
-    width: 250px;
+    width: 180px;
     margin: 12px 20px;
 `
 

@@ -21,7 +21,10 @@ const Colaborations = () => {
 
             <H2>Colaboraciones</H2>
 
+            <p>Si os gustaría hacer una colaboración, contactadme a este email: workpaulaalvarez@gmail.com</p>
+
             <Section>
+
 
                 <LogoLink link='https://www.instagram.com/reel/CqQaMltIg2C/?igshid=MDJmNzVkMjY%3D'
                     srcImg='logo-freeda.webp' altImg='freeda' />
