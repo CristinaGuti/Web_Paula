@@ -40,6 +40,15 @@ export const LogoImg = styled.img`
     }
 `
 
+export const IconImg = styled.img`
+    width: 50px;
+    margin: 12px 20px;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+    transform: translateY(-5%) scale(1.05);
+    }
+`
+
 export const Container = styled.div`
     padding: 30px;
 `

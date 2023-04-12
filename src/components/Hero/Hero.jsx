@@ -6,7 +6,10 @@ import Button from '../Button/Button'
 const Container = styled.div`
 height: 500px;
 padding-top: 100px;
-background-color: var(--color-blue);
+
+background-image: url('../../assets/image-paula.jpg');
+background-size: cover;
+background-position: center;
 `
 
 
