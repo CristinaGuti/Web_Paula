@@ -8,7 +8,7 @@ const LogoLink = ({ link, srcImg, altImg }) => {
 
     return (
 
-        <a href={link}>
+        <a href={link} target="_blank">
             <LogoImg src={imageLink} alt={altImg} />
         </a>
     )

@@ -13,6 +13,7 @@ export const NavBar = styled.nav`
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 `
 
 export const NavLink = styled.a`
@@ -51,6 +52,12 @@ export const IconImg = styled.img`
 
 export const Container = styled.div`
     padding: 30px;
+`
+
+export const FooterContainer = styled.div`
+    padding: 30px;
+    background-color: black;
+    color: white;
 `
 
 export const Section = styled.div`

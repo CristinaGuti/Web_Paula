@@ -1,18 +1,12 @@
-import styled from 'styled-components'
 import IconLink from '../LogoLink/IconLink'
-
-
-const Container = styled.div`
-background-color: var(--color-black);
-color: var(--color-white);
-`
+import { FooterContainer } from '../ComponentStyles/ComponentStyles'
 
 
 const Footer = () => {
 
 
     return (
-        <Container id='contact'>
+        <FooterContainer id='contact'>
             <p>workpaulaalvarez@gmail.com</p>
 
             <IconLink link='https://www.linkedin.com/in/paula-%C3%A1lvarez-s%C3%A1nchez-de-amoraga-dataanalist/'
@@ -32,7 +26,7 @@ const Footer = () => {
 
             <IconLink link='https://www.youtube.com/watch?v=8Oka76MVFjg&list=PLpNdHcxIYepHqyVAWtmcILiRjGepxdiKJ'
                 srcImg='icon-youtube.png' altImg='youtube' />
-        </Container>
+        </FooterContainer>
     )
 }
 
