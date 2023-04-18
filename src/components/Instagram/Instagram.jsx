@@ -4,8 +4,8 @@ import { Container } from '../ComponentStyles/ComponentStyles'
 
 
 const InstagramWidget = styled.iframe`
-width: 70%;
-height: 1200px;
+width: 60%;
+height: 800px;
 border:0;
 overflow:hidden;
 `
@@ -24,6 +24,7 @@ const Instagram = () => {
                 allowtransparency="true"
                 className='lightwidget-widget'
             ></InstagramWidget>
+
         </Container>
     )
 }

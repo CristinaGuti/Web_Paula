@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { H2, Paragraph } from '../Text/Text'
-import { Container } from '../ComponentStyles/ComponentStyles'
+import { ContainerColor } from '../ComponentStyles/ComponentStyles'
 import LogoLink from '../LogoLink/LogoLink'
 
 
@@ -30,7 +30,7 @@ const DataStudies = () => {
 
 
     return (
-        <Container id='dataStudies'>
+        <ContainerColor id='dataStudies'>
 
             <H2>Mis estudios como analista de datos</H2>
 
@@ -62,7 +62,7 @@ const DataStudies = () => {
                 </LinkColumn>
             </Section>
 
-        </Container>
+        </ContainerColor>
     )
 }
 

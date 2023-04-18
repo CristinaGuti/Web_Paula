@@ -9,7 +9,7 @@ export const NavBar = styled.nav`
     position: fixed;
     width: 100%;
     overflow: hidden;
-    background-color: white;
+    background-color: var(--color-white);
     top: 0;
     left: 0;
     right: 0;
@@ -26,10 +26,41 @@ export const NavLink = styled.a`
     }
 `
 
+export const FooterLink = styled.a`
+    text-decoration: none;
+    color: var(--color-blue);
+    padding: 0 10px;
+    &:hover,
+    &:focus {
+        color: var(--color-red);
+    }
+`
+
 export const NavList = styled.ul`
     display: flex;
     list-style: none;
     margin: 0 20px;
+`
+
+export const FooterList = styled.ul`
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+`
+
+export const FooterEmail = styled.p`
+    text-align: left;
+    align-items: center;
+    margin: 0 20px;
+`
+
+export const LogoNav = styled.img`
+    width: 200px;
+    margin: 10px 20px;
+    transition: all 0.1s ease-in-out;
+    &:hover {
+    transform: translateY(-1%) scale(1.15);
+    }
 `
 
 export const LogoImg = styled.img`
@@ -42,12 +73,17 @@ export const LogoImg = styled.img`
 `
 
 export const IconImg = styled.img`
-    width: 50px;
+    width: 30px;
     margin: 12px 20px;
     transition: all 0.1s ease-in-out;
     &:hover {
     transform: translateY(-5%) scale(1.05);
     }
+`
+
+export const ContainerColor = styled.div`
+    padding: 30px;
+    background-color: var(--color-light);
 `
 
 export const Container = styled.div`
@@ -56,8 +92,11 @@ export const Container = styled.div`
 
 export const FooterContainer = styled.div`
     padding: 30px;
-    background-color: black;
-    color: white;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 export const Section = styled.div`
@@ -70,7 +109,7 @@ export const LinkButton = styled.a`
     background-color: var(--color-red);
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
-    color: black;
+    color: var(--color-black);
     padding: 15px 35px;
     display: block;
     width: 200px;

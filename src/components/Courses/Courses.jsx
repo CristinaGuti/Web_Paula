@@ -1,5 +1,5 @@
 import Button from '../Button/Button'
-import { Container, Section } from '../ComponentStyles/ComponentStyles'
+import { ContainerColor, Section } from '../ComponentStyles/ComponentStyles'
 import { H2, H4, Paragraph } from '../Text/Text'
 
 
@@ -7,7 +7,7 @@ const Courses = () => {
 
 
     return (
-        <Container id='courses'>
+        <ContainerColor id='courses'>
             <H2>Formación para empresas</H2>
 
             <Section>
@@ -27,7 +27,7 @@ const Courses = () => {
             </Section>
 
 
-        </Container>
+        </ContainerColor>
     )
 }
 

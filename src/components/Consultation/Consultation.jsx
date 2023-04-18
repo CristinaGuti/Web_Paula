@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import video from '../../assets/video-consultation.mp4'
 import IconDiv from '../IconDiv/IconDiv'
 import { H2, Paragraph } from '../Text/Text'
-import { Container } from '../ComponentStyles/ComponentStyles'
+import { ContainerColor } from '../ComponentStyles/ComponentStyles'
 
 
 const Column = styled.div`
@@ -45,7 +45,7 @@ const Consultation = () => {
 
     return (
 
-        <Container id='consultation'>
+        <ContainerColor id='consultation'>
 
             <H2>Consulta</H2>
             <Section>
@@ -54,7 +54,7 @@ const Consultation = () => {
 
                     <IconColum >
                         <IconDiv title={'Videoconsulta'} image={'icon-laptop-blue'} imageRed={'icon-laptop-red'} />
-                        <IconDiv title={'Bono 4 sesiones'} image={'icon-bag-blue'} imageRed={'icon-bag-red'} />
+                        <IconDiv title={'Sesión de pareja'} image={'icon-chat-blue'} imageRed={'icon-chat-red'} />
                     </IconColum>
                 </Column>
 
@@ -64,7 +64,7 @@ const Consultation = () => {
 
             </Section>
 
-        </Container>
+        </ContainerColor>
 
     )
 }
