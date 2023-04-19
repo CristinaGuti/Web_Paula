@@ -8,6 +8,7 @@ width: 624px;
 height: 352px;
 border-radius: 10px;
 border: none;
+margin-top: 20px;
 `
 
 const Section = styled.div`

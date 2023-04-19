@@ -5,9 +5,26 @@ import { Container } from '../ComponentStyles/ComponentStyles'
 
 const InstagramWidget = styled.iframe`
 width: 60%;
-height: 800px;
+height: 700px;
 border:0;
 overflow:hidden;
+
+  @media (max-width: 1400px) {
+    height: 650px;
+  }
+  @media (max-width: 1200px) {
+    height: 550px;
+  }
+  
+  @media (max-width: 992px) {
+    height: 550px;
+  }
+  @media (max-width: 768px) {
+    height: 450px;
+  }
+  @media (max-width: 576px) {
+    height: 350px;
+  }
 `
 
 
