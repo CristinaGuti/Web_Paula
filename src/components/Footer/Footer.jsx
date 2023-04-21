@@ -1,5 +1,5 @@
 import IconLink from '../LogoLink/IconLink'
-import { FooterContainer, FooterLink, FooterList, FooterEmail } from '../ComponentStyles/ComponentStyles'
+import { FooterContainer, FooterList, FooterEmail } from '../ComponentStyles/ComponentStyles'
 
 
 const Footer = () => {

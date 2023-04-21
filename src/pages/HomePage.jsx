@@ -6,7 +6,7 @@ import Colaborations from '../components/Colaborations/Colaborations'
 import DataStudies from '../components/DataStudies/DataStudies'
 import Podcast from '../components/Podcast/Podcast'
 import Courses from '../components/Courses/Courses'
-import Blog from '../components/Blog/Blog'
+// import Blog from '../components/Blog/Blog'
 import Footer from '../components/Footer/Footer'
 
 

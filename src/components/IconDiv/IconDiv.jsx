@@ -20,7 +20,7 @@ const IconDiv = ({ title, image, imageRed }) => {
 
     return (
         <div>
-            <a href="https://app.acuityscheduling.com/schedule.php?owner=17667345" target="_blank">
+            <a href="https://app.acuityscheduling.com/schedule.php?owner=17667345" target="_blank" rel="noreferrer">
                 <Icon src={imageSrcBlue}
                     onMouseEnter={e => (e.currentTarget.src = imageSrcRed)}
                     onMouseLeave={e => (e.currentTarget.src = imageSrcBlue)}

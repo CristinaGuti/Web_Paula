@@ -1,4 +1,3 @@
-import styled from 'styled-components'
 import { H2 } from '../Text/Text'
 import { ContainerColor } from '../ComponentStyles/ComponentStyles'
 

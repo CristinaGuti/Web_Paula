@@ -35,12 +35,6 @@ const DataStudies = () => {
             <H2>Mis estudios como analista de datos</H2>
 
             <Section>
-                <Paragraph>¡Hola! Me llamo Paula Álvarez y me apasiona el mundo de la sexología y la educación.
-                    He fundado mi propia consulta en la que ofrezco asesoramiento y disfruto de la
-                    divulgación sobre educación sexual y feminismo en el podcast "Nos tienen contentas"
-                    junto a mi compañera Rocío Romero.
-                </Paragraph>
-
                 <Paragraph>Además, tras completar el bootcamp de Ironhack, he decidido explorar mi otra pasión:
                     el análisis de datos. Actualmente me dedico al análisis y visualización de datos
                     utilizando herramientas como Python, SQL, Tableau y Power BI. Me encanta explorar la
