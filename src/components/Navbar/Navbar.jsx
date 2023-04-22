@@ -1,152 +1,160 @@
-// import { useState } from 'react'
+import { useState } from 'react'
 import logo from '../../assets/logo/logo-paula.png'
-import { NavBar, NavLink, NavList, LogoNav } from '../ComponentStyles/ComponentStyles'
-// import styled from 'styled-components'
+import menu from '../../assets/icons/icon-vulva-black.png'
+// import { NavBar, NavLink, NavList, LogoNav } from '../ComponentStyles/ComponentStyles'
+import styled from 'styled-components'
 
 
 const Navbar = () => {
 
-    //     const [isOpen, setIsOpen] = useState(false)
+    const [isOpen, setIsOpen] = useState(false)
 
 
-    //     // Todo esto hay que juntarlo con lo de ComponentStyles y apañarlo
-    //     const NavBar = styled.nav`
-    //   display: flex;
-    //   justify-content: space-between;
-    //   align-items: center;
+    // Todo esto hay que juntarlo con lo de ComponentStyles y apañarlo
+    const NavBar = styled.nav`
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      overflow: hidden;
+      background-color: var(--color-white);
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
     //   padding: 1rem;
 
-    //   @media screen and (max-width: 1320px) {
-    //     flex-direction: column;
-    //     position: relative;
-    //   }
-    // `
+      @media screen and (max-width: 1320px) {
+        // flex-direction: column;
+        // position: relative;
+      }
+      `
 
-    //     const NavMobile = styled.div`
-    //     display: flex;
-    //     align-items: center;
-    //   justify-content: space-between;
-    //   flex-direction: row;
+    const NavList = styled.ul`
+        display: flex;
+        // justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+        padding: 0;
+        list-style: none;
+  
+        @media screen and (max-width: 1000px) {
+          display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
+        //   flex-direction: column;
+        //   position: absolute;
+        //   top: 100%;
+        //   left: 0;
+        //   right: 0;
+        //   background-color: #fff;
+        //   border: 1px solid #000;
+        //   padding: 1rem;
+        //   margin-top: 0.5rem;
+        }
+      `
 
-    //   @media screen and (max-width: 1320px) {
-    //     flex-direction: column;
-    //     position: relative;
-    //   }
-    // `
+    const NavLink = styled.a`
+      color: var(--color-black);
+      text-decoration: none;
+      margin: 0;
+      padding: 0 10px;
+      font-weight: bold;
+      transition: color 0.2s;
+    
+      &:hover,
+      &:focus {
+        color: var(--color-red);
+      }
+      `
 
-    //     const LogoContainer = styled.div`
-    //   margin-right: auto;
-    // `
+    const LogoNav = styled.img`
+      width: 200px;
+      margin: 10px 20px;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: translateY(-1%) scale(1.15);
+      }
+      `
 
-    //     const HamburgerContainer = styled.div`
-    //   @media screen and (max-width: 1320px) {
-    //     margin-top: 0.5rem;
-    //   }
-    // `
+    const MenuIcon = styled.img`
+      width: 20px;
+      height: cover;
+      margin: 0;
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: translateY(-1%) scale(1.15);
+      }
+      `
 
-    //     const NavList = styled.ul`
-    //   display: flex;
-    //   justify-content: space-between;
-    //   align-items: center;
-    //   list-style: none;
+    const MenuButton = styled.div`
+      margin: 0;
+      padding: 0 50px;
+      display: inline;
+      cursor: pointer;
 
-    //   @media screen and (max-width: 1320px) {
-    //     display: ${({ isOpen }) => (isOpen ? 'flex' : 'none')};
-    //     flex-direction: column;
-    //     position: absolute;
-    //     top: 100%;
-    //     left: 0;
-    //     right: 0;
-    //     background-color: #fff;
-    //     border: 1px solid #000;
-    //     padding: 1rem;
-    //     margin-top: 0.5rem;
-    //   }
-    // `;
+      @media screen and (min-width: 1000px) {
+          display: ${({ isOpen }) => (isOpen ? 'inline' : 'none')};
+      }
+      `
 
-    //     const NavLink = styled.a`
-    //   color: #000;
-    //   text-decoration: none;
-    //   padding: 0.5rem;
-    //   font-weight: bold;
-    //   transition: color 0.3s;
 
-    //   &:hover {
-    //     color: #6e1e6e;
-    //   }
 
-    //   @media screen and (max-width: 1320px) {
-    //     padding: 0.5rem 0;
-    //   }
-    // `;
+    const NavMobile = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 
-    //     const LogoNav = styled.img`
-    //   height: 50px;
-    // `;
+    @media screen and (max-width: 1320px) {
+        flex-direction: column;
+        position: relative;
+    }
+    `
 
-    //     const HamburgerButton = styled.button`
-    //   display: none;
-    //   flex-direction: column;
-    //   justify-content: space-around;
-    //   width: 32px;
-    //   height: 32px;
-    //   background-color: transparent;
-    //   border: none;
-    //   cursor: pointer;
-    //   padding: 0;
-    //   z-index: 10;
+    const LogoContainer = styled.div`
+      margin-right: auto;
+    `
 
-    //   @media screen and (max-width: 1320px) {
-    //     display: flex;
-    //   }
-    // `;
+    const HamburgerContainer = styled.div`
+      @media screen and (max-width: 1320px) {
+        margin-top: 0.5rem;
+      }
+    `
 
-    //     const HamburgerIcon = styled.div`
-    //   width: 20px;
-    //   height: 16px;
-    //   display: flex;
-    //   flex-direction: column;
-    //   justify-content: space-between;
-    //   cursor: pointer;
+    const HamburgerButton = styled.button`
+      display: none;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 32px;
+      height: 32px;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      z-index: 10;
 
-    //   span {
-    //     width: 100%;
-    //     height: 2px;
-    //     background-color: #000;
-    //     transition: transform 0.3s;
-    //     transform-origin: center;
-    //   }
-
-    //   span:first-child {
-    //     transform: ${({ isOpen }) => (isOpen ? 'rotate(45deg)' : 'rotate(0)')};
-    //   }
-
-    //   span:nth-child(2) {
-    //     opacity: ${({ isOpen }) => (isOpen ? '0' : '1')};
-    //   }
-
-    //   span:last-child {
-    //     transform: ${({ isOpen }) => (isOpen ? 'rotate(-45deg)' : 'rotate(0)')};
-    //   }
-    // `
+      @media screen and (max-width: 1320px) {
+        display: flex;
+      }
+    `
+    console.log('EL MENU:', isOpen)
 
     return (
         <NavBar>
-            {/* <NavMobile>
-                <LogoContainer> */}
+            {/* <NavMobile> */}
+            {/* <LogoContainer> */}
             <NavLink href="#">
                 <LogoNav src={logo} alt="logo" />
             </NavLink>
-            {/* </LogoContainer>
+            {/* </LogoContainer> */}
 
-                <HamburgerContainer>
-                    <HamburgerButton onClick={() => setIsOpen(!isOpen)} isOpen={isOpen}>
-                        <HamburgerIcon isOpen={isOpen}>
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z" /><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" /></svg>
-                        </HamburgerIcon>
-                    </HamburgerButton>
-                </HamburgerContainer>
-            </NavMobile> */}
+            {/* <HamburgerContainer> */}
+            <MenuButton onClick={() => setIsOpen(!isOpen)} isOpen={isOpen}>
+                <MenuIcon src={menu} alt="menu" />
+            </MenuButton>
+            {/* </HamburgerContainer> */}
+            {/* </NavMobile> */}
 
             <NavList>
                 <NavLink href="#consultation">Consulta</NavLink>
