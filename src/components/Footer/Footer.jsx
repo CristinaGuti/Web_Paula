@@ -8,6 +8,7 @@ const Footer = () => {
     return (
         <>
             <FooterContainer id='contact'>
+
                 <FooterEmail>workpaulaalvarez@gmail.com</FooterEmail>
 
                 <FooterList>
@@ -29,7 +30,6 @@ const Footer = () => {
                     <IconLink link='https://www.youtube.com/watch?v=8Oka76MVFjg&list=PLpNdHcxIYepHqyVAWtmcILiRjGepxdiKJ'
                         srcImg='icon-youtube.png' altImg='youtube' />
                 </FooterList>
-
             </FooterContainer>
         </>
     )

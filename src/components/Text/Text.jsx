@@ -7,20 +7,28 @@ export const H1 = styled.h1`
     font-family: "Gobold-Regular";
     font-size: 2.5rem;
     text-transform: uppercase;
-    color: var(--color-podcast-light);
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    color: var(--color-red);
     @media (min-width: 576px) {
-    font-size: 3rem;
+        font-size: 3rem;
     }
     @media (min-width: 768px) {
-    font-size: 3.7rem;
+        font-size: 3.7rem;
     }
     `
 
 export const H2 = styled.h2`
     font-family: "Gobold-Regular";
     padding: 20px;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
+    color: var(--color-red);
+    @media (min-width: 576px) {
+        font-size: 2rem;
+    }
+    @media (min-width: 768px) {
+        font-size: 2.5rem;
+    }
     `
 
 export const H4 = styled.h4`
@@ -38,21 +46,23 @@ export const Paragraph = styled.p`
 
 export const HeroParagraph = styled.p`
     font-size: 0.8rem;
+    text-align: justify;
     padding: 5%;
+    padding-bottom: 40%;
     margin: 0;
     color: white;
+    
     @media (min-width: 576px) {
-    font-size: 1rem;
-    text-align: end;
-    padding: 5% 6% 0 55%;
-    color: black;
+        font-size: 1rem;
+        text-align: justify;
+        padding: 5% 6% 0 55%;
+        color: black;
     }
-    @media (min-width: 768px) {
-    font-size: 1.3rem;
-    text-align: end;
-    padding: 5% 6% 0 55%;
-    color: black;
-
+    @media (min-width: 992px) {
+        font-size: 1.3rem;
+        text-align: justify;
+        padding: 2% 6% 0 55%;
+        color: black;
   }
     `
 

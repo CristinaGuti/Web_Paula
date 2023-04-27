@@ -19,8 +19,9 @@ const Hero = () => {
 
     return (
         <Container>
-            <HeroParagraph>¡Hola! Me llamo Paula Álvarez y me apasiona el mundo de la sexología y la educación.
-                He fundado mi propia consulta en la que ofrezco asesoramiento y disfruto de la
+            <HeroParagraph>¡Hola! Mi nombre es Paula Álvarez y me apasiona el mundo de la sexología y la educación.
+                <br />
+                He fundado mi propia consulta en la que ofrezco asesoramiento. También disfruto de la
                 divulgación sobre educación sexual y feminismo en el podcast "Nos tienen contentas"
                 junto a mi compañera Rocío Romero.
             </HeroParagraph>
