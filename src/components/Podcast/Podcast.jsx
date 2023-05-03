@@ -1,23 +1,5 @@
-import styled from 'styled-components'
 import { H2 } from '../Text/Text'
-import { Container } from '../ComponentStyles/ComponentStyles'
-
-
-const PodcastWidget = styled.iframe`
-width: 624px;
-height: 352px;
-border-radius: 10px;
-border: none;
-margin-top: 20px;
-`
-
-const Section = styled.div`
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
-`
+import { Container, PodcastContainer, PodcastWidget } from '../ComponentStyles/ComponentStyles'
 
 
 const Podcast = () => {
@@ -27,7 +9,7 @@ const Podcast = () => {
         <Container id='podcast'>
             <H2>Podcast</H2>
 
-            <Section>
+            <PodcastContainer>
                 <PodcastWidget
                     src="https://open.spotify.com/embed/show/02O5h9s0pdZ1z7ZM9R9zEz?theme=0"
                     title="podcast"
@@ -43,7 +25,7 @@ const Podcast = () => {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
                 ></PodcastWidget>
-            </Section>
+            </PodcastContainer>
 
         </Container>
     )

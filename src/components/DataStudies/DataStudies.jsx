@@ -1,30 +1,7 @@
-import styled from 'styled-components'
 import { H2, Paragraph } from '../Text/Text'
-import { ContainerColor } from '../ComponentStyles/ComponentStyles'
+import { ContainerColor, WorkLinkContainer, Section } from '../ComponentStyles/ComponentStyles'
 import LogoLink from '../LogoLink/LogoLink'
 
-
-const Section = styled.div`
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  & > p {
-  margin-top: 2rem;
-  }
-`
-
-const LinkColumn = styled.div`
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: center;
-`
 
 const DataStudies = () => {
 
@@ -46,15 +23,15 @@ const DataStudies = () => {
                     en el análisis de datos, no dudes en contactarme. ¡Estoy aquí para ayudarte!
                 </Paragraph>
 
-
-                <LinkColumn>
-                    <LogoLink link='https://www.linkedin.com/in/paula-%C3%A1lvarez-s%C3%A1nchez-de-amoraga-dataanalist/'
-                        srcImg='logo-linkedin.png' altImg='linkedin' />
-
-                    <LogoLink link='https://github.com/paulaalvarezsa'
-                        srcImg='logo-github.png' altImg='github' />
-                </LinkColumn>
             </Section>
+
+            <WorkLinkContainer>
+                <LogoLink link='https://www.linkedin.com/in/paula-%C3%A1lvarez-s%C3%A1nchez-de-amoraga-dataanalist/'
+                    srcImg='logo-linkedin.png' altImg='linkedin' />
+
+                <LogoLink link='https://github.com/paulaalvarezsa'
+                    srcImg='logo-github.png' altImg='github' />
+            </WorkLinkContainer>
 
         </ContainerColor>
     )

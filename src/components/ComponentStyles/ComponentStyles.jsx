@@ -46,6 +46,8 @@ export const LogoNav = styled.img`
 
 export const LogoImg = styled.img`
     width: 180px;
+    height: 150px;
+    object-fit: contain;
     margin: 12px 20px;
     transition: all 0.1s ease-in-out;
     &:hover {
@@ -67,34 +69,63 @@ export const IconImg = styled.img`
     }
 `
 
-export const ContainerColor = styled.div`
-    padding: 30px;
-    background-color: var(--color-light);
-`
+
+
+
+
+
+
+
+
+
 
 export const Container = styled.div`
     padding: 30px;
 `
-
-export const FooterContainer = styled.div`
-    padding: 15px;
-    background-color: var(--color-black);
-    color: var(--color-white);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    @media (min-width: 768px) {
-        flex-direction: row;
-
-    }
+export const ContainerColor = styled.div`
+    padding: 30px;
+    background-color: var(--color-light);
 `
-
 export const Section = styled.div`
-    width: 70%;
-    margin: auto;
+width: 80%;
+margin: auto;
 `
+
+
+
+export const ColaborationsContainer = styled.div`
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+`
+
+
+export const WorkLinkContainer = styled.div`
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+`
+
+
+export const PodcastContainer = styled.div`
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+`
+export const PodcastWidget = styled.iframe`
+width: 624px;
+height: 352px;
+border-radius: 10px;
+border: none;
+margin-top: 20px;
+`
+
 
 export const LinkButton = styled.a`
     text-decoration: none;
@@ -102,26 +133,30 @@ export const LinkButton = styled.a`
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     color: var(--color-black);
-    padding: 15px 35px;
     display: block;
-    width: 200px;
+    width: 150px;
     margin:  20px auto;
+    padding: 15px 35px;
     &:hover,
     &:focus {
         background-color: var(--color-podcast-light);
         transform: scale(1.05);
     }
+    @media (min-width: 768px) {
+        width: 200px;
+    }
 `
-
-
-
-
+export const ButtonContainer = styled.div`
+    @media (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+    }
+`
 
 
 export const InstagramContainer = styled.div`
 padding: 10px;
 `
-
 export const InstagramWidget = styled.iframe`
 width: 100%;
 height: 380px;
@@ -151,19 +186,32 @@ overflow:hidden;
     height: 700px;
   }
 `
+
+
+export const FooterContainer = styled.div`
+padding: 15px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 768px) {
+        flex-direction: row;
+    }
+`
 export const FooterEmail = styled.p`
     text-align: left;
     align-items: center;
     margin: 0 20px;
 `
-
 export const FooterList = styled.ul`
     display: flex;
     align-items: center;
     margin: 0 20px;
     padding: 0;
 `
-
 export const FooterLink = styled.a`
     text-decoration: none;
     color: var(--color-blue);
