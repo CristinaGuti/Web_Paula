@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 import Paula from '../../assets/image-paula.jpg'
 
 
-const Container = styled.div`
+const HeroContainer = styled.div`
 height: 600px;
 padding-top: 100px;
 background-image: url(${Paula});
@@ -18,7 +18,7 @@ const Hero = () => {
 
 
     return (
-        <Container>
+        <HeroContainer>
             <HeroParagraph>¡Hola! Mi nombre es Paula Álvarez y me apasiona el mundo de la sexología y la educación.
                 <br />
                 He fundado mi propia consulta en la que ofrezco asesoramiento. También disfruto de la
@@ -30,7 +30,7 @@ const Hero = () => {
 
             <Button link='https://app.acuityscheduling.com/schedule.php?owner=17667345' text='Reserva cita' />
 
-        </Container>
+        </HeroContainer>
     )
 }
 

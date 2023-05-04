@@ -1,15 +1,5 @@
-import styled from 'styled-components'
 import { H4 } from '../Text/Text'
-
-
-const Icon = styled.img`
-width: auto;
-height: 150px;
-margin: 100px 30px 30px 30px;
-&:hover{
-    transform: scale(1.05);
-}
-`
+import { IconConsult } from "../ComponentStyles/ComponentStyles"
 
 
 const IconDiv = ({ title, image, imageRed }) => {
@@ -21,7 +11,7 @@ const IconDiv = ({ title, image, imageRed }) => {
     return (
         <div>
             <a href="https://app.acuityscheduling.com/schedule.php?owner=17667345" target="_blank" rel="noreferrer">
-                <Icon src={imageSrcBlue}
+                <IconConsult src={imageSrcBlue}
                     onMouseEnter={e => (e.currentTarget.src = imageSrcRed)}
                     onMouseLeave={e => (e.currentTarget.src = imageSrcBlue)}
                 />

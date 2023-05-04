@@ -1,6 +1,6 @@
 import { H2, Paragraph } from '../Text/Text'
-import { ContainerColor, WorkLinkContainer, Section } from '../ComponentStyles/ComponentStyles'
 import LogoLink from '../LogoLink/LogoLink'
+import { ContainerColor, WorkLinkContainer, Section } from '../ComponentStyles/ComponentStyles'
 
 
 const DataStudies = () => {

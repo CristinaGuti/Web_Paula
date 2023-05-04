@@ -8,7 +8,6 @@ const Button = ({ link, text }) => {
     return (
         <LinkButton href={link} target="_blank">{buttonTxt}</LinkButton>
     )
-
 }
 
 export default Button

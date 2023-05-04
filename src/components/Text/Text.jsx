@@ -9,6 +9,7 @@ export const H1 = styled.h1`
     text-transform: uppercase;
     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
     color: var(--color-red);
+
     @media (min-width: 576px) {
         font-size: 3rem;
     }
@@ -34,13 +35,16 @@ export const H2 = styled.h2`
 
 export const H4 = styled.h4`
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 800;
     text-align: center;
     text-transform: uppercase;
 
+    @media (min-width: 576px) {
+        font-size: 1.2rem;
+    }
     @media (min-width: 768px) {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     `
 

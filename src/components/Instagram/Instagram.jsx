@@ -4,9 +4,12 @@ import { InstagramContainer, InstagramWidget } from '../ComponentStyles/Componen
 
 const Instagram = () => {
 
+
   return (
     <InstagramContainer id='networks' >
+
       <H2>Instagram</H2>
+
       < script src="https://cdn.lightwidget.com/widgets/lightwidget.js" ></script >
 
       <InstagramWidget
@@ -14,7 +17,8 @@ const Instagram = () => {
         title="instagram"
         allowtransparency="true"
         className='lightwidget-widget'
-      ></InstagramWidget>
+      >
+      </InstagramWidget>
 
     </InstagramContainer>
   )

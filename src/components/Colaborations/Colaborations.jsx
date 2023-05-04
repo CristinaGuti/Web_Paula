@@ -1,6 +1,6 @@
 import { H2, Paragraph } from '../Text/Text'
-import { Container, ColaborationsContainer } from '../ComponentStyles/ComponentStyles'
 import LogoLink from '../LogoLink/LogoLink'
+import { Container, ColabContainer } from '../ComponentStyles/ComponentStyles'
 
 
 const Colaborations = () => {
@@ -11,7 +11,7 @@ const Colaborations = () => {
 
             <H2>Colaboraciones</H2>
 
-            <ColaborationsContainer>
+            <ColabContainer>
 
                 <LogoLink link='https://www.instagram.com/reel/CqQaMltIg2C/?igshid=MDJmNzVkMjY%3D'
                     srcImg='logo-freeda.webp' altImg='freeda' />
@@ -49,7 +49,7 @@ const Colaborations = () => {
                 <LogoLink link='https://sputniknews.lat/20200229/no-es-educacion-es-mero-divertimento-se-puede-regular-el-porno-1090629604.html'
                     srcImg='logo-sputnik.jpg' altImg='sputnik' />
 
-            </ColaborationsContainer>
+            </ColabContainer>
 
             <Paragraph>Si quieres hacer una colaboración, contáctame a este email: <strong>workpaulaalvarez@gmail.com</strong></Paragraph>
 
