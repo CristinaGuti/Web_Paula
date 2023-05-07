@@ -68,7 +68,7 @@ transform: translateY(-5%) scale(1.05) rotateX(10deg) rotateY(-5deg);
 `
 export const IconImg = styled.img`
 width: 20px;
-margin: 15px 10px 0 10px;
+margin: 15px 15px 15px 15px;
 transition: all 0.1s ease-in-out;
 &:hover {
     transform: translateY(-5%) scale(1.05);
@@ -206,6 +206,9 @@ padding: 15px 35px;
     background-color: var(--color-red);
     transform: scale(1.05);
 }
+&:active {
+    background-color: var(--color-blue);
+}
 @media (min-width: 768px) {
     width: 200px;
 }
@@ -253,6 +256,7 @@ overflow:hidden;
 
 
 export const FooterContainer = styled.div`
+font-size: 0.8rem;
 padding: 15px;
 background-color: var(--color-black);
 color: var(--color-white);
@@ -261,7 +265,10 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 
-@media (min-width: 768px) {
+@media (min-width: 388px) {
+    font-size: 1rem;
+}
+@media (min-width: 1200px) {
     flex-direction: row;
 }
 `
@@ -276,12 +283,21 @@ align-items: center;
 margin: 0 20px;
 padding: 0;
 `
+export const FooterCreate = styled.p`
+text-align: left;
+align-items: center;
+margin: 0 20px;
+`
 export const FooterLink = styled.a`
+// display: flex;
 text-decoration: none;
 color: var(--color-blue);
-padding: 0 10px;
+padding: 0 5px;
 &:hover,
 &:focus {
     color: var(--color-red);
+}
+&:active {
+    color: var(--color-blue);
 }
 `

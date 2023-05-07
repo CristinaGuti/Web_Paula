@@ -1,5 +1,5 @@
 import IconLink from '../LogoLink/IconLink'
-import { FooterContainer, FooterList, FooterEmail } from '../ComponentStyles/ComponentStyles'
+import { FooterContainer, FooterList, FooterEmail, FooterCreate, FooterLink } from '../ComponentStyles/ComponentStyles'
 
 
 const Footer = () => {
@@ -29,6 +29,12 @@ const Footer = () => {
                 <IconLink link='https://youtube.com/playlist?list=PLpNdHcxIYepHqyVAWtmcILiRjGepxdiKJ'
                     srcImg='icon-youtube.png' altImg='youtube' />
             </FooterList>
+
+            <FooterCreate> Creadoras:
+                <FooterLink href="https://www.instagram.com/catalina.moranf/">@catalina.moranf</FooterLink>
+                y
+                <FooterLink href="https://www.instagram.com/cristinitaguti/">@cristinitaguti</FooterLink>
+            </FooterCreate>
         </FooterContainer>
     )
 }
