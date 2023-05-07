@@ -22,7 +22,7 @@ const Navbar = () => {
       flex-direction: column;
       position: fixed;
       z-index: 1;
-      top: 9%;
+      top: 10%;
       right: 0;
       align-items: end;
       background-color: var(--color-white);

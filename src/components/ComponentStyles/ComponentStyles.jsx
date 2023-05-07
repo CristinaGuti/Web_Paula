@@ -206,9 +206,6 @@ padding: 15px 35px;
     background-color: var(--color-red);
     transform: scale(1.05);
 }
-&:active {
-    background-color: var(--color-blue);
-}
 @media (min-width: 768px) {
     width: 200px;
 }
@@ -289,15 +286,11 @@ align-items: center;
 margin: 0 20px;
 `
 export const FooterLink = styled.a`
-// display: flex;
 text-decoration: none;
 color: var(--color-blue);
 padding: 0 5px;
 &:hover,
 &:focus {
     color: var(--color-red);
-}
-&:active {
-    color: var(--color-blue);
 }
 `
