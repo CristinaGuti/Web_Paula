@@ -10,10 +10,10 @@ const Instagram = () => {
 
       <H2>Instagram</H2>
 
-      < script src="https://cdn.lightwidget.com/widgets/lightwidget.js" ></script >
+      <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
 
       <InstagramWidget
-        src="//lightwidget.com/widgets/078d0f49d6375305a79f3e002d9e9d66.html"
+        src="https://cdn.lightwidget.com/widgets/078d0f49d6375305a79f3e002d9e9d66.html"
         title="instagram"
         allowtransparency="true"
         className='lightwidget-widget'
